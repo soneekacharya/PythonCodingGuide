@@ -1,10 +1,7 @@
-"""" Suppose we have a NotificationService class that is responsible for sending
-notifications. The NotificationService class directly depends on the EmailSender class
-to send emails.
-In this implementation, the NotificationService class directly depends on the
-EmailSender class, which violates the Dependency Inversion Principle. The high-level
-NotificationService should not depend on the low-level EmailSender, as it tightly
-couples the classes together."""
+"""" Suppose we have a NotificationService class that is responsible for sending notifications. The NotificationService 
+class directly depends on the EmailSender class to send emails. In this implementation, the NotificationService class directly 
+depends on the EmailSender class, which violates the Dependency Inversion Principle. The high-level NotificationService should 
+not depend on the low-level EmailSender, as it tightly couples the classes together."""
 
 from abc import ABC, abstractmethod
 
