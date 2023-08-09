@@ -1,8 +1,7 @@
 """ There is a savings account and a checking account class. The checking account inherits the savings account as both have 
 the same functionality and the checking account allows overdrafts (allow processing transactions even if there 
 is not sufficient balance). Redesign this program to follow the Liskov Substitution Principle (LSP) principle which
-represents that “objects should be replaceable by their subtypes without altering
-how the program works”. """
+represents that “objects should be replaceable by their subtypes without altering how the program works”. """
 
 class Account:
     def __init__(self, balance):
