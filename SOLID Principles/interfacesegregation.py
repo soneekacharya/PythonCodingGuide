@@ -5,6 +5,7 @@ which represents that “Clients should not be forced to depend upon methods tha
 not to hierarchies.” (Hint: Create two different classes in which one class use interfaces for process payment and another
 class can process and refund payment both)"""
 
+
 from abc import ABC, abstractmethod
 
 class PaymentHandler(ABC):
